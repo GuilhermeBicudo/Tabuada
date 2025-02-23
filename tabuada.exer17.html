@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Cabeça da página -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <!-- Ligação com o documento css -->
+    <link rel="stylesheet" href="tabuada.exer17.css">
+</head>
+<!-- Corpo da página -->
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Simulação de Tabuada</h1>
+    </header>
+    <!-- Seção com as funções inputs inseridas  -->
+    <section>
+        <!-- Rótulo com o primeiro input -->
+        <label>Número:
+            <input type="number" id="num" placeholder="Digite qualquer número" required />
+        </label>
+        <!-- Segundo input para a função do botão mostrar -->
+        <input type="button" id="btn" value="Mostrar" onclick="Mostrar()" />
+        <!-- Terceiro input para a função do botão reset -->
+        <input type="reset" id="reset" value="Resetar" onclick="Resetar()" />
+    </section>
+    <!-- Fim seção -->
+    <!-- Div class para exibir os dados inseridos pelo user -->
+    <div class="res"></div>
+    <!-- Ligação com o documento js -->
+    <script src="tabuada.exer17.js"></script>
+</body>
+
+</html>

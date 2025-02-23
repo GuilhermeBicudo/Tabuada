@@ -1,0 +1,67 @@
+/* Corpo do html */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Título */
+h1 {
+    color: brown;
+    padding: 10px;
+}
+
+/* Seção */
+section {
+    margin: 10px;
+    padding: 60px 30px;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+/* Função do input id= num */
+#num {
+    padding: 5px 10px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Botão */
+#btn {
+    color: brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* Mostra os dados inseridos */
+.res {
+    text-align: center;
+    color: brown;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#reset {
+    color: brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
